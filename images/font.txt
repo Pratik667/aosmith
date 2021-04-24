@@ -1,0 +1,2 @@
+lato bold
+lato regular

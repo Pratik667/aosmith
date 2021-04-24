@@ -1,0 +1,125 @@
+*{
+    font-family: 'Lato';}
+.bg-extradark{
+    background-color: #000000;
+}
+.navbar{
+    padding: 1rem 4rem;
+}
+.nav-link{
+    text-decoration:none;
+    color:#fff;
+}
+.hero-image {
+    background-image: url("images/banner-image-with-product.jpg");
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.banner-icon-parent.sector{
+    background-image: url("images/ellipse4.png");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.compact-design.sector{
+    background-image: url("images/Layer8.png");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sector{
+    height:600px;
+}
+.elipse-text{
+    text-align:center;
+}
+.instant-water{
+    color: #2b7549;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top:10px;
+}
+.subtitle2{
+    color:#666666;
+    font-size: 16px; 
+    font-weight: 500;
+}
+.banner-icons{
+    text-align:center;
+}
+.icon-heading{
+    font-size: 18px;
+    color:#353535;
+    font-weight: 600;
+    padding-top:10px;
+
+}
+.subtitle1{
+    color:#353535;
+    font-size: 13.97px; 
+    font-weight: 500;
+}
+.banner-icons{
+    position: absolute;
+}
+.banner-icons.a{
+    transform: translate(135px, -190px);
+}
+.banner-icons.b{
+    transform: translate(300px, 0px);
+}
+.banner-icons.c{
+    transform: translate(650px, 100px);
+}
+.banner-icons.d{
+    right:0;
+    transform: translate(-300px, 0px);
+}
+.banner-icons.e{
+    right: 0;
+    transform: translate(-135px, -190px);
+}
+.banner-icon-parent{
+    position: relative;
+}
+.banner-icon-parent .disclaimer{
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    margin-left: -100px;
+    color:#373737;
+    font-size:16px;
+}
+.compact-design .col-md-6{
+    padding:50px;    
+}
+.compact-design .row{
+ margin: auto;
+}
+.compact-design .container{max-width:90%}
+.compact-heading{
+    font-size:85px;
+    font-weight:600;
+    color:white;
+}
+.bob{
+vertical-align: middle;
+height: 90px;
+}
+.compact-heading-text{
+    height:70px;
+    margin: 15px;
+    margin-left:0px;
+}
+.compact-desc{
+    color:white;
+    font-size:26px;
+    margin-top: 50px;
+}
+.compact-design .col-md-6.right{
+    padding-top: 100px;
+}
