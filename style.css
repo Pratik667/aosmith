@@ -31,8 +31,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.explore-faston.sector-large{
+    background-image: url("images/Layer9.png");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .sector{
     height:600px;
+}
+.sector-large{
+    height:750px;
 }
 .elipse-text{
     text-align:center;
