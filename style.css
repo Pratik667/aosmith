@@ -234,3 +234,24 @@ height: 90px;
     right: 0;
     transform: translate(-330px, 310px);
 }
+.black-banner-image{
+padding: 50px;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-success-green{
+    background-color: #337645;
+    color:white;
+    font-weight: 600;
+    font-size: 13.97px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+  
+
+}
+.center-pos{
+    padding: 70px 0;
+    text-align: center;
+}
