@@ -37,6 +37,18 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.black-banner.sector-small .col-md-9{
+    background-image: url("images/Layer8.png");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.black-banner.sector-small .col-md-3{
+    background-image: url("images/Layer8.png");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .explore-faston.sector-large{
   background-color:white;
 }
@@ -45,6 +57,9 @@
 }
 .sector-large{
     height:750px;
+}
+.sector-small{
+    height:450px;
 }
 .elipse-text{
     text-align:center;
@@ -187,4 +202,35 @@ height: 90px;
     left: 0;
     right: 0;
     text-align: center;
+}
+.specification .banner-icons.a{
+    left: 0;
+    transform: translate(250px, 310px);
+}
+.specification .banner-icons.b{
+    transform: translate(310px, 150px);
+    left: 0;
+}
+.specification .banner-icons.c{
+    transform: translate(435px, 20px);
+    left: 0;
+}
+.specification .banner-icons.d{
+    transform: translate(590px, -25px);
+    left: 0;
+}
+.specification .banner-icons.e{
+    transform: translate(-685px, -25px);
+    right: 0;}
+.specification .banner-icons.f{
+    transform: translate(-531px, 20px);
+    right: 0;
+}
+.specification .banner-icons.g{
+    transform: translate(-415px, 150px);
+    right: 0;
+}
+.specification .banner-icons.h{
+    right: 0;
+    transform: translate(-330px, 310px);
 }
