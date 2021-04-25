@@ -97,11 +97,92 @@
         font-size: 15px;
     }
 }
-@media only screen and (max-width: 1080px) {
-  
+
+@media only screen and (max-width: 1024px) {
+    .col-md-2 {
+        max-width: 25%;
+    }
+    .banner-icons.a {
+        transform: translate(0px, -190px);
+    }
+    .banner-icons.e {
+        transform: translate(0px, -190px);
+    }
+    .banner-icons.b {
+        transform: translate(120px, 0px);
+    }
+    .banner-icons.d {
+        transform: translate(-135px, 0px);
+    }
+    .banner-icons.c {
+        transform: translate(370px, 100px);
+    }
+    img.compact-design-img {
+        height: 370px;
+    }
+    .compact-heading-text {
+        height: 39px;
+    }
+    .compact-heading {
+        font-size: 53px;
+    }
+    .compact-desc {
+        font-size: 15px;
+    }
+    .sector {
+        height: 500px;
+    }
+    .bob {
+        height: 70px;
+    }
+
+.black-banner-image {
+    height: 370px;
+}
+img.spec-banner-icon {
+    height: 100px;
+}
+.specification .banner-icons.a {
+    transform: translate(155px, 295px);
+}
+.specification .banner-icons.b {
+    transform: translate(180px, 180px);
+}
+.specification .banner-icons.c {
+    transform: translate(250px,80px);
+}
+.specification .banner-icons.e {
+    transform: translate(-550px, 30px);
+}
+.specification .banner-icons.h {
+    transform: translate(-200px, 295px);
+}
+.specification .banner-icons.g {
+    transform: translate(-240px, 180px);
+}
+.specification .banner-icons.f {
+    transform: translate(-315px, 80px);
+}
+.specification .banner-icons.d {
+    transform: translate(490px, 30px);
+}
+img.spec-elipse-icon {
+    height: 200px;
+}
+.sector-small {
+    height: 370px;
+}
+  .sector.tablet {
+    height: 580px;
+}
+footer {
+    font-size: 11px;
+}
 }
 @media only screen and (max-width: 960px) {
-  
+    .col-md-2 {
+        max-width: 16.66%;
+    }
 }
 @media only screen and (max-width: 800px) {
   
