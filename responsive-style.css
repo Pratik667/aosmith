@@ -185,7 +185,104 @@ footer {
     }
 }
 @media only screen and (max-width: 800px) {
-  
+    .col-md-2 {
+        max-width: 25%;
+    }
+    .icon-heading {
+        font-size: 15px;
+    }
+    .subtitle1 {
+        font-size: 11.97px;    
+    }
+    .banner-icons.e {
+        transform: translate(20px, -190px);
+    }
+    .banner-icons.b {
+        transform: translate(70px, 0px);
+    }
+    .banner-icons.a {
+        transform: translate(-30px, -190px);
+    }
+    .banner-icons.d {
+        transform: translate(-70px, 0px);
+    }
+    .banner-icons.c {
+        transform: translate(275px, 100px);
+    }
+    img.compact-design-img {
+        height: 290px;
+    }
+    .compact-heading-text {
+        height: 30px;
+        margin-top:10px;
+    }
+    .bob {
+        height: 60px;
+    }
+    .compact-desc {
+        font-size: 13px;
+    }
+    .compact-heading {
+        font-size: 40px;
+    }
+    .sector {
+        height: 400px;
+    }
+    .faston-heading {
+        font-size: 35px;
+    }    
+    .faston-card .nav-link, .faston-cardsubheading {
+        font-size: 15px;
+    }
+    .faston-card .nav-item {
+        padding: 13px;
+    }
+    .faston-subheading {
+        font-size: 15px;
+    }
+    .sector-large {
+        height: 630px;
+    }
+    .specification .banner-icons.a {
+        transform: translate(80px, 195px);
+    }
+    .specification .banner-icons.b {
+        transform: translate(110px, 110px);
+    }
+   
+.specification .banner-icons.d {
+    transform: translate(475px, 30px);
+}
+.specification .banner-icons.h {
+    transform: translate(-145px, 195px);
+}
+.specification .banner-icons.g {
+    transform: translate(-172px, 110px);
+}
+.specification .banner-icons.c {
+    transform: translate(267px,-13px);
+}
+.specification .banner-icons.e {
+    transform: translate(-550px, 30px);
+}
+.specification .banner-icons.f {
+    transform: translate(-334px, -13px);
+}
+img.spec-elipse-icon {
+    height: 160px;
+}
+.black-banner-image {
+    height: 300px;
+}
+.sector-small {
+    height: 300px;
+}
+.white-banner-text {
+    font-size: 11px;
+}
+.white-banner-heading {
+    font-size: 33px;
+}
 }
 @media only screen and (max-width: 768px) {
   
