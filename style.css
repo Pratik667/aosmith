@@ -31,11 +31,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.explore-faston.sector-large{
-    background-image: url("images/Layer9.png");    
+.specification.sector{
+    background-image: url("images/ellipse3.png");    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.explore-faston.sector-large{
+  background-color:white;
 }
 .sector{
     height:600px;
@@ -131,4 +134,57 @@ height: 90px;
 }
 .compact-design .col-md-6.right{
     padding-top: 100px;
+}
+.faston-heading{
+    color: #337645;
+    font-size:38px;
+    text-align:center;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    position: relative;
+    font-weight: 700;
+}
+.faston-heading:before, .faston-heading:after {    
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0____\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";   
+    position: relative;
+    top: -15px;
+}
+.faston-subheading{
+    color:#3a3a3a;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.explore-faston .row{
+    margin-left:auto;
+    margin-right: auto;
+}
+.faston-card .nav-link,.faston-cardsubheading{
+    color: #337645;
+    font-size: 20px;
+    font-size:600;
+}
+.faston-card .nav-item{
+    padding:20px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.faston-card{
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.faston-cardsubheading{
+    margin-top: 50px;
+    padding-bottom:20px;
+}
+.embed-responsive-item{
+    height:300px !important;
+    width:600px !important;
+}
+.specification.sector{position:relative;}
+.elipse-text.down{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
