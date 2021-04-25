@@ -269,11 +269,11 @@ display: block;
     top:50%;
    text-align: center;
 }
-.black-banner .row{
+.black-banner .row,.white-banner .row{
     margin-left:auto !important;
     margin-right:auto !important;
 }
-.black-banner.container-fluid{
+.black-banner.container-fluid,.white-banner.container-fluid{
     padding-left: 0;
     padding-right: 0;
 }
