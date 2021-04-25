@@ -44,10 +44,26 @@
     background-size: cover;
 }
 .black-banner.sector-small .col-md-3{
-    background-image: url("images/Layer8.png");    
+    background-image: url("images/demo1.png");    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.white-banner.sector-small .col-md-3{
+    background-image: url("images/demo2.png");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.white-banner.sector-small .col-md-9{
+    background-image: url("images/Layer9.png");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-banner.sector-small{
+    background-color: white;
+    height:350px;
 }
 .explore-faston.sector-large{
   background-color:white;
@@ -248,10 +264,48 @@ display: block;
     width: 120px;
     height: 40px;
     border-radius: 10px;
-  
-
 }
 .center-pos{
-    padding: 70px 0;
-    text-align: center;
+    top:50%;
+   text-align: center;
 }
+.black-banner .row{
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+.black-banner.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.left-pos{
+    top:30%;
+   text-align: left;
+}
+.white-banner-heading{
+    padding-bottom: 10px;
+    font-size: 36px;
+    color: #000000;
+    font-weight:bold;
+}
+.white-banner-text{
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #000;
+    font-weight:500;
+}
+.contact-phone{
+    font-size: 21.94px;
+color: #337645;
+font-weight: bold;
+}
+.contact-phone-subtitle{
+    font-size: 15.95px;
+    color: #353535;
+}
+footer{
+    height:50px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
+footer .row{margin-left:0;margin-right:0;}
