@@ -44,13 +44,13 @@
     background-size: cover;
 }
 .black-banner.sector-small .col-md-3{
-    background-image: url("images/demo1.png");    
+    background-image: url("images/blackbanner.PNG");    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .white-banner.sector-small .col-md-3{
-    background-image: url("images/demo2.png");    
+    background-image: url("images/whitebanner.PNG");    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
