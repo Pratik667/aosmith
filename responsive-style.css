@@ -401,7 +401,7 @@ img.spec-elipse-icon {
         height: 700px;
     }
     .faston-heading {
-        font-size: 22px;
+        font-size: 21px;
     }
     .faston-heading:before, .faston-heading:after {
         content: "\00a0\00a0\00a0\00a0____\00a0\00a0\00a0\00a0";
@@ -418,6 +418,9 @@ display:none;    }
     }
     img.spec-banner-icon {
         height: 80px;
+    }
+    .contact-phone {
+        font-size: 14.94px;
     }
 }
 @media only screen and (max-width: 400px) {
