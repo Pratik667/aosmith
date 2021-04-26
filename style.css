@@ -309,3 +309,15 @@ footer{
     color: #fff;
 }
 footer .row{margin-left:0;margin-right:0;}
+footer ul {
+    display: flex;
+    list-style-type: none;
+}
+.hover-zoom:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.fa-phone:before,.fa-question:before {
+    color: #337645;
+    font-size: 32px;
+}

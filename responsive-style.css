@@ -178,6 +178,9 @@ img.spec-elipse-icon {
 footer {
     font-size: 11px;
 }
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    color: white;
+}
 }
 @media only screen and (max-width: 960px) {
     .col-md-2 {
@@ -288,14 +291,195 @@ img.spec-elipse-icon {
   
 }
 @media only screen and (max-width: 600px) {
-  
-}
+    /* .banner-icon-parent,.specification{display:none;} */
+    .banner-icon-parent.sector {
+        background-image: url("images/Layer9m.png");
+        height: auto;
+    }
+    .hero-image {
+        background-image: url("images/mobile-banner-image-with-product.jpg");
+       }
+       .compact-design.sector{
+        background-image: url("images/Layer8m.png");  }
+        .sector {
+            height: 800px;
+        }
+        .compact-desc {
+            font-size: 15px;
+        }
+        .faston-heading {
+            font-size: 29px;
+        }
+        .sector-large {
+            height: 1000px;
+        }
+        .faston-card .nav-link, .faston-cardsubheading {
+            font-size: 18px;
+        }
+        .black-banner.sector-small .col-md-9 {
+            background-image: url(images/Layer8m.png);
+        }
+        .sector-small {
+            height: 600px;
+        }
+        .center-pos {
+            top: 20%;
+            text-align: center;
+            height: 150px;
+        }
+        .black-banner.sector-small .col-md-3,.white-banner.sector-small .col-md-3 {  
+           display:none;
+        }
+        .sector-small {
+            height: auto;
+        }
+        .float-right-m{float:right}
+        .float-left-m{
+            float:left
+        }
+        .white-banner.sector-small .col-md-9 {
+            background-image: url(images/Layer9m.png);
+        }
+        .left-pos {
+             top: -5%; 
+          text-align:center;
+        }
+        footer{
+            height:auto;            
+        }
+        footer ul {
+            display: block;
+            list-style-type: none;
+            text-align: center;
+        }
+        li.social-icon {
+            display: contents;
+        }
+        .container-fluid.sector-small.contact-banner {
+            text-align: center;
+        }
+        .banner-icons {
+            position: relative;
+            transform: none !important;
+        }
+        .banner-icons.col-md-2 {
+            max-width: 50% !important;
+        }
+        .banner-icon-parent .disclaimer {
+            position: relative;
+            text-align: center;
+            padding-top: 20px;
+            bottom: unset;
+            left: unset;
+            margin-left: auto;
+        }
+        .banner-parent-icon-row.row {
+            padding-top: 25px;
+            padding-bottom: 25px;        }
+        .specification.sector {
+            background-image: url(images/Layer9m.png);
+            height:auto;
+        }
+        .elipse-text.down {
+            position: relative;
+        }
+        .banner-icons.col-md-1 {
+            max-width: 25%;
+        }
+        .compact-design .col-md-6.right {
+            padding-top: 40px;
+        }
+    }
 @media only screen and (max-width: 575px) {
-  
+    .compact-design .col-md-6.right {
+        padding-top: 30px;
+    }
+    .compact-design .col-md-6 {
+        padding: 20px;
+    }
+    .sector {
+        height: 700px;
+    }
+    .faston-heading {
+        font-size: 22px;
+    }
+    .faston-heading:before, .faston-heading:after {
+        content: "\00a0\00a0\00a0\00a0____\00a0\00a0\00a0\00a0";
+        position: relative;
+        top: -8px;
+    }
+    .black-banner.sector-small .col-md-3, .white-banner.sector-small .col-md-3 {
+display:none;    }
+    .sector-small {
+        height: auto;
+    }
+    .hero-image {
+        height: 350px;
+    }
+    img.spec-banner-icon {
+        height: 80px;
+    }
 }
 @media only screen and (max-width: 400px) {
   
 }
 @media only screen and (max-width: 320px) {
-  
+    img.compact-design-img {
+        height: 200px;
+    }
+    .hero-image {
+        height: 300px;
+    }
+    .compact-heading-text {
+        height: 22px;
+        margin-right:5px;
+    }
+    .compact-heading {
+        font-size: 30px;
+    }
+    .bob {
+        height: 40px;
+    }
+    .compact-desc {
+        margin-top: 30px;
+    }
+    .sector {
+        height: 600px;
+    }
+    .faston-heading {
+        font-size: 18px;
+    }
+    .faston-subheading {
+        font-size: 12px;
+        padding-bottom: 0px;
+    }
+    .faston-card .nav-link, .faston-cardsubheading {
+        font-size: 12px;
+    }
+    .sector-large {
+        height: 800px;
+    }
+    .btn-success-green {
+          font-size: 11.97px;
+        width: 100px;
+        height: 30px;
+    }
+    .white-banner-heading {
+        font-size: 29px;
+    }
+    .contact-phone {
+        font-size: 11.94px;
+    }    
+    footer ul {
+        padding-left: 0px;
+    }
+    .contact-banner.sector-small {
+        height: auto;
+    }
+    .contact-phone-subtitle {
+        font-size: 12.95px;
+    }
+    img.spec-banner-icon {
+        height: 60px;
+    }
 }
