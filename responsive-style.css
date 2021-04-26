@@ -389,6 +389,10 @@ img.spec-elipse-icon {
         .compact-design .col-md-6.right {
             padding-top: 40px;
         }
+        .banner-parent-icon-row.row {
+            margin-right: 0;
+            margin-left: 0;
+        }
     }
 @media only screen and (max-width: 575px) {
     .compact-design .col-md-6.right {
@@ -422,6 +426,7 @@ display:none;    }
     .contact-phone {
         font-size: 14.94px;
     }
+    
 }
 @media only screen and (max-width: 400px) {
   
